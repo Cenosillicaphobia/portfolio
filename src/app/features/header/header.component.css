@@ -1,0 +1,30 @@
+.header-container {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #1F1F1F;
+  z-index: 1;
+}
+
+button {
+  font-weight: bold;
+  font-size: 22px;
+  padding: 5px;
+  background-color: #1F1F1F;
+  color: white;
+  border: none;
+  border-left: solid 2px #F7C73F;
+  box-shadow: inset 0 0 0 0 #F7C73F;
+  transition: 1s;
+}
+
+button:hover { 
+  box-shadow: inset 400px 0 0 0 #F7C73F;
+  color: #1F1F1F;
+}

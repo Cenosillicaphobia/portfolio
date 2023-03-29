@@ -1,0 +1,34 @@
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #1F1F1F;
+  box-shadow:  25px 25px 15px #707070,
+             -25px -25px 15px #ffffff;
+  color: white;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+.center {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-left: solid 2px #F7C73F;
+  border-right: solid 2px #F7C73F;
+}
