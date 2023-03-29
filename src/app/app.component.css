@@ -1,0 +1,28 @@
+.page {
+  padding-top: 20px;
+  transition: 0.5s;
+}
+
+.switch {
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  left: 50px;
+}
+
+.dark {
+  padding: 5px;
+  color: #F7C73F;
+  background-color: #1F1F1F;
+  border: solid 1px #F7C73F;
+  font-weight: light;
+}
+
+.light {
+  padding: 5px;
+  color: #1F1F1F;
+  background-color: #F7C73F;
+  border: solid 1px #1F1F1F;
+  font-weight: light;
+}
+

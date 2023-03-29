@@ -6,8 +6,9 @@
   text-align: center;
   padding: 20px;
   background-color: #1F1F1F;
-  box-shadow:  25px 25px 15px #707070,
-             -25px -25px 15px #ffffff;
+  box-shadow:  25px 25px 15px #707070;
+  border-top: solid 1px #F7C73F;
+  border-left: solid 1px #F7C73F;
   color: white;
   width: 90%;
   margin: auto;
