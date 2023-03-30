@@ -1,6 +1,6 @@
 .contacts-container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   text-align: center;
@@ -17,11 +17,10 @@
 h3 {
   font-size: 35px;
   border-bottom: solid 2px #F7C73F;
-  width: 35%;
 }
 
 .form-container {
-  width: 30%;
+  width: 300px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
@@ -67,7 +66,7 @@ button:hover:disabled {
 }
 
 .links {
-  width: 10%;
+  width: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,4 +88,60 @@ img {
 
 img:hover {
   width: 60px;
+}
+
+@media (max-width: 940px){
+
+  br {
+    display: none;
+  }
+
+  h3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 580px){
+
+  br {
+    display:block ;
+  }
+
+  h3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    width: 250px;
+  }
+
+  .links {
+    width: 50px;
+  }
+
+  .links-text {
+    font-size: 10px;
+  }
+
+  img {
+    width: 40px;
+    margin-top: 20px;
+    transition: 0.25s
+  }
+  
+  img:hover {
+    width: 45px;
+  }
+
+}
+
+@media (max-width: 450px){
+
+.form-container{
+  width: 200px;
+}
+
 }

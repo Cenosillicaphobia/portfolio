@@ -47,6 +47,7 @@ img {
 
 .skills-texts {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -56,6 +57,7 @@ img {
 
 p {
   border-radius: 10px;
+  margin: 8px;
   background: #1f1f1f;
   box-shadow:  5px 5px 0px #707070,
              -5px -5px 0px #ffffff;
@@ -69,4 +71,35 @@ p:hover {
   background-color: #F7C73F;
   color: #1f1f1f;
   font-size: 20px;
+}
+
+@media (max-width: 940px){
+
+  img {
+    width: 60px;
+    margin-right: 50px;
+  }
+
+  p:hover {
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 540px){
+
+  img {
+    width: 30px;
+    margin-right: 20px;
+  }
+
+  p {
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  p:hover {
+    font-size: 12px;
+  }
+
 }

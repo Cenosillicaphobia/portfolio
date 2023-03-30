@@ -8,3 +8,13 @@
   border-top: solid 1px #F7C73F;
   color: white;
 }
+
+@media (max-width: 500px){
+
+  .footer-container {
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}

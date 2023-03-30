@@ -26,3 +26,11 @@
   font-weight: light;
 }
 
+@media (max-width: 600px){
+
+  .dark,
+  .light {
+    font-size: 10px;
+  }
+
+}

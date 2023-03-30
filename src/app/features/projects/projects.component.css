@@ -79,7 +79,7 @@ button:hover {
 .mars-background {
   width: 100%;
   position: absolute;
-  top: -100px;
+  top: 0px;
   left: 0px;
   z-index: -1;
 }
@@ -106,3 +106,48 @@ button:hover {
   font-size: 45px;
 }
 
+@media (max-width: 730px){
+
+  .mars-background {
+    width: 125%;
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    z-index: -1;
+  }
+
+}
+
+@media (max-width: 600px){
+
+  .mars-background {
+    width: 175%;
+    position: absolute;
+    top: 0px;
+    left: -100px;
+    z-index: -1;
+  }
+
+}
+
+@media (max-width: 450px){
+
+  .mars-background {
+    width: 225%;
+    position: absolute;
+    top: 0px;
+    left: -175px;
+    z-index: -1;
+  }
+
+  .travel,
+  .mars {
+    font-size: 30px;
+  }
+
+  button:hover {
+    height: 180px;
+    font-size: 50px;
+  }
+
+}
