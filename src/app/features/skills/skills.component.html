@@ -2,28 +2,44 @@
 
   <h3 class="title">SKILLS</h3>
 
-  <div class="carousel">
-    <div class="skills-icon">
-      <img src="assets/img/icons/html-5.png">
-      <img src="assets/img/icons/css-3.png">
-      <img src="assets/img/icons/js.png">
-      <img src="assets/img/icons/angular.png">
-      <img src="assets/img/icons/bootstrap.png">
-      <img src="assets/img/icons/git.png">
-      <img src="assets/img/icons/github.png">
-      <img src="assets/img/icons/npm.png">    
-      <img src="assets/img/icons/webpack.png">  
+  <div class="img-box">
+    <div>
+      <img src="assets/img/icons/html-5.png" [ngClass]="{'floating': set == 'html'}">
+      <img src="assets/img/icons/css-3.png" [ngClass]="{'floating': set == 'css'}">
+      <img src="assets/img/icons/js.png" [ngClass]="{'floating': set == 'javascript'}">
+      <img src="assets/img/icons/angular.png" [ngClass]="{'floating': set == 'angular'}">
     </div>
+    <div>
+      <img src="assets/img/icons/bootstrap.png" [ngClass]="{'floating': set == 'bootstrap'}">
+      <img src="assets/img/icons/git.png" [ngClass]="{'floating': set == 'git'}">
+      <img src="assets/img/icons/github.png" [ngClass]="{'floating': set == 'github'}">
+      <img src="assets/img/icons/npm.png" [ngClass]="{'floating': set == 'npm'}"> 
+    </div>
+    <div> 
+      <img src="assets/img/icons/webpack.png" [ngClass]="{'floating': set == 'webpack'}">  
+      <img src="assets/img/icons/ng-zorro.svg" [ngClass]="{'floating': set == 'ng-zorro'}">  
+      <img src="assets/img/icons/RxJs.png" [ngClass]="{'floating': set == 'rxjs'}">  
+      <img src="assets/img/icons/firebase.png" [ngClass]="{'floating': set == 'firebase'}"> 
+    </div> 
   </div>
 
   <div class="skills-texts">
-      <p>Html</p>
-      <p>CSS</p>
-      <p>JavaScript</p>
-      <p>Angular</p>
-      <p>Bootstrap</p>
-      <p>Git / Github</p>
-      <p>NPM</p>
-      <p>Webpack</p>
+    <div class="text-divider">
+      <p [ngClass]="{'hover': set == 'html'}">Html</p>
+      <p [ngClass]="{'hover': set == 'css'}">CSS</p>
+      <p [ngClass]="{'hover': set == 'javascript'}">JavaScript</p>
+      <p [ngClass]="{'hover': set == 'angular'}">Angular</p>
+      <p [ngClass]="{'hover': set == 'bootstrap'}">Bootstrap</p>
+      <p [ngClass]="{'hover': set == 'git'}">Git</p>
+    </div>
+    <div class="text-divider">
+      <p [ngClass]="{'hover': set == 'npm'}">NPM</p>
+      <p [ngClass]="{'hover': set == 'webpack'}">Webpack</p>
+      <p [ngClass]="{'hover': set == 'ng-zorro'}">NgZorro</p>
+      <p [ngClass]="{'hover': set == 'rxjs'}">RxJs</p>
+      <p [ngClass]="{'hover': set == 'firebase'}">Firebase</p>
+      <p [ngClass]="{'hover': set == 'github'}">Github</p>
     </div>
   </div>
+
+</div>
