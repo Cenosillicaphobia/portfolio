@@ -16,41 +16,47 @@
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 4vw;
   border-bottom: solid 2px #F7C73F;
   margin-bottom: 10px;
 }
 
-a {
-  width: 90%;
-}
-
 p {
-  margin-bottom: 20px;
+  font-size: 2vw;
+  margin-bottom: 25px;
   font-weight: 100;
 }
 
+a {
+  width: 80%;
+  text-decoration: none;
+}
+
 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   width: 100%;
-  height: 80px;
-  margin-bottom: 10px;
+  aspect-ratio: 20/2.5;
+  flex-grow: 1;
+  margin-bottom: 5px;
   border-radius: 5px;
   overflow: hidden;
   position: relative;
   z-index: 0;
   transition: 0.5s;
   border: none;
+  font-size: 5vw;
 }
 
 button:hover {
-  height: 180px;
-  font-size: 60px;
+  aspect-ratio: 20/5;
 }
 
 .travel {
   background-color: skyblue;
   font-family: 'Amatic SC', cursive;
-  font-size: 38px;
   text-shadow: 2px 2px aliceblue;
 }
 
@@ -72,11 +78,11 @@ button:hover {
 
 .mars {
   font-family: 'Chakra Petch', sans-serif;
-  font-size: 35px;
-  text-shadow: 2px 2px aliceblue;
+  color: orange;
+  text-shadow: 2px 2px blueviolet;
 }
 
-.mars-background {
+.background-img {
   width: 100%;
   position: absolute;
   top: 0px;
@@ -84,70 +90,29 @@ button:hover {
   z-index: -1;
 }
 
-.data {
-  background-color: #14213D;
-  font-family: 'Outfit', sans-serif;
-  font-size: 35px;
-  text-shadow: 2px 2px white;
-  color: #FCA311;
+.city-post {
+  font-family: 'Fasthand', cursive;
+  color: aliceblue;
+  text-shadow: 2px 2px rgb(24, 144, 255, 0.7);
 }
 
 .more {
+  font-size: 3vw;
   background-color: #1F1F1F;
   border: solid 2px #F7C73F;
   color: white;
-  font-size: 30px;
 }
 
 .more:hover {
+  aspect-ratio: 20/2.5;
   background-color: #F7C73F;
   color: #1F1F1F;
-  height: 80px;
-  font-size: 45px;
 }
 
-@media (max-width: 730px){
+@media(max-width: 650px){
 
-  .mars-background {
-    width: 125%;
-    position: absolute;
-    top: 0px;
-    left: -50px;
-    z-index: -1;
-  }
-
-}
-
-@media (max-width: 600px){
-
-  .mars-background {
-    width: 175%;
-    position: absolute;
-    top: 0px;
-    left: -100px;
-    z-index: -1;
-  }
-
-}
-
-@media (max-width: 450px){
-
-  .mars-background {
-    width: 225%;
-    position: absolute;
-    top: 0px;
-    left: -175px;
-    z-index: -1;
-  }
-
-  .travel,
-  .mars {
-    font-size: 30px;
-  }
-
-  button:hover {
-    height: 180px;
-    font-size: 50px;
+  h3 {
+    font-size: 25px;
   }
 
 }
