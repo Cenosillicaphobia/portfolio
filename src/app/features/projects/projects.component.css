@@ -28,7 +28,7 @@ p {
 }
 
 a {
-  width: 80%;
+  width: 90%;
   text-decoration: none;
 }
 
@@ -113,6 +113,10 @@ button:hover {
 
   h3 {
     font-size: 25px;
+  }
+
+  button {
+    aspect-ratio: 20/3.5;
   }
 
 }
